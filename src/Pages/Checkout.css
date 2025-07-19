@@ -1,0 +1,79 @@
+.checkout-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: #f7fafd;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.success-icon {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.qr-code {
+  width: 150px;
+  height: 150px;
+  margin: 15px 0;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #1e88e5;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 5px;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #1565c0;
+}
+
+.shopping-msg {
+  font-size: 16px;
+  font-weight: bold;
+  color:black;
+  margin-bottom: 5px;
+}
+
+.continue-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: white;
+  font-weight: bold;
+  color: black;
+  border: 2px solid #315511;
+  background-color: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.continue-btn:hover {
+  background: #315511;
+  color: white;
+}
+
+.loader {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+}
+.lottie-success{
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+}
+.done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* aligns text content centrally */
+  padding: 1rem;
+}

@@ -1,0 +1,52 @@
+.hero-contai {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.shops-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 1rem;
+  font-weight: bold;
+  width:100%;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.items {
+  background-color: transparent;
+  color: black;
+  border: 2px solid #315511;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.items:hover {
+  background-color: #315511;
+  color: white;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .items {
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .shops-navbar {
+    justify-content: space-evenly;
+  }
+}

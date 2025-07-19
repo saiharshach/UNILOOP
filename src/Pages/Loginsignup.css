@@ -1,0 +1,241 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    width: 600px;
+    background: #fff;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+
+}
+.text{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline{
+    width: 61px;
+    height: 6px;
+    background: rgb(160, 22, 89);
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    color: #797979;
+    font-size: 19px;
+}
+.submit-container{
+    display: flex;
+    gap: 30px; 
+    margin: 20px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: black;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.submit-gray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid #315511;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: 19px;
+    cursor: pointer;
+}
+.switch-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border: 2px solid #315511;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: 19px;
+    cursor: pointer;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+  width: 90%;
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+}
+
+.text {
+  color: black;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background: rgb(160, 22, 89);
+  border-radius: 9px;
+}
+
+.inputs {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.input {
+  background: #eaeaea;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+
+.input input {
+  height: 50px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: #797979;
+  font-size: 18px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.input input:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0 0 0 20x #315511;
+    border-radius: 6px;
+}
+
+.submit-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.submit,
+.submit-gray {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 140px;
+  padding: 14px 24px;
+  border-radius: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+
+.submit {
+  color: black;
+  background-color: #eaeaea;
+}
+
+.submit-gray {
+  color: black;
+  border: 2px solid #315511;
+  background: transparent;
+}
+
+.switch-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border: 2px solid #315511;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .text {
+    font-size: 32px;
+  }
+
+  .input input {
+    font-size: 16px;
+  }
+
+  .submit,
+  .submit-gray {
+    font-size: 15px;
+    padding: 12px 18px;
+  }
+
+  .switch-button {
+    font-size: 15px;
+    padding: 10px 16px;
+  }
+}

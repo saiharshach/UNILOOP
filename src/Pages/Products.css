@@ -1,0 +1,60 @@
+.product-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px 30px;
+  text-align: center;
+  background: #fffaf5;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.product-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.price-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.new-price {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.old-price {
+  color: #888;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+
+.add-to-cart {
+  background-color: white;
+  color: black;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+.add-to-cart:hover {
+  background-color: grey;
+}
